@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Dream Photography </title>
+  </head>
+  <body>
+    <header class="header" id="home">
+      <div class="slider">
+        <img class="slide" src="assets/pexels-header1.jpg" alt="Slide 1">
+        <img class="slide" src="assets/header.jpg" alt="Slide 2">
+        <img class="slide" src="assets/pexels-header2.jpg" alt="Slide 3">
+      </div>
+      <div class="quotation">
+        <h1>“Photography is the art of frozen time… the ability to store emotion and feelings within a frame.”</h1>
+      </div>
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#">
+              <img src="assets/DreamLogo.jpg" alt="logo" />
+            </a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li class="nav__logo">
+            <a href="#">
+              <img src="assets/DreamLogo.jpg" alt="logo" />
+            </a>
+          </li>
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#about">ABOUT US</a></li>
+          <li><a>PORTFOLIO</a></li>
+          <li><a>TESTIMONIALS</a></li>
+          <li><a href="#contact">CONTACT US</a></li>
+        </ul>
+      </nav>
+
+    </header>
+
+    <div class="section__container about__container" id="about">
+      <h2 class="section__header">WE CAPTURE YOUR MEMORIES</h2>
+      <p class="section__description">
+        At Capturer, we specialize in freezing those fleeting moments in time
+        that hold immense significance for you. With our passion for photography
+        and keen eye for detail, we transform ordinary moments into
+        extraordinary memories.
+      </p>
+      <p class="section__description">
+        Whether it's a milestone event, a candid portrait, or the breathtaking
+        beauty of nature, we strive to encapsulate the essence of every moment,
+        ensuring that your cherished memories last a lifetime. Trust us to
+        capture the magic of your life's journey, one frame at a time.
+      </p>
+      <img src="assets/DreamLogo.jpg" alt="logo" />
+    </div>
+
+    <section class="section__container gallery__container">
+      <h2 class="section__header">~ GALLERY ~</h2>
+      <div class="gallery__grid">
+        <img src="assets/image-1.jpg" alt="gallery" />
+        <img src="assets/image-2.jpg" alt="gallery" />
+        <img src="assets/image-3.jpg" alt="gallery" />
+        <img src="assets/image-4.jpg" alt="gallery" />
+        <img src="assets/image-5.jpg" alt="gallery" />
+        <img src="assets/image-6.jpg" alt="gallery" />
+        <img src="assets/image-7.jpg" alt="gallery" />
+        <img src="assets/image-8.jpg" alt="gallery" />
+      </div>
+    </section>
+    
+
+    <div class="section__container portfolio__container">
+      <h2 class="section__header">~ PORTFOLIO ~</h2>
+      <div class="portfolio__grid">
+        <div class="portfolio__card">
+          <img src="assets/portfolio-1.jpg" alt="portfolio" />
+          <div class="portfolio__content">
+          </div>
+        </div>
+        <div class="portfolio__card">
+          <img src="assets/portfolio-2.jpg" alt="portfolio" />
+          <div class="portfolio__content">
+          </div>
+        </div>
+        <div class="portfolio__card">
+          <img src="assets/portfolio-3.jpg" alt="portfolio" />
+          <div class="portfolio__content">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <section class="testimonial">
+      <div class="testimonial-content">
+      <h2 class="section__header">~ TESTIMONIALS ~</h2>
+      <!-- Slider main container -->
+    <div class="testimonial-slide">
+      <div class="testimonial-item active">
+        <p>The customer is very important, the customer will be followed by the customer. But at the same time they happened with great labor and pain.</p>
+        <span>- John Don</span>
+      </div>
+      <br>
+      <div class="testimonial-item">
+        <p>For to come to the smallest detail, no one should practice any kind of work unless he derives some benefit from it.</p>
+        <span>- Jane Smith</span>
+      </div>
+    
+     
+    </div>
+  </div>
+  <div class="testimonial-images">
+    <img src="assets/test1.jpg" alt="Testimonial 1" class="testimonial-img active">
+    <img src="assets/test3.jpg" alt="Testimonial 2" class="testimonial-img">
+    
+    <div class="testimonial-controls">
+      <button class="prev-btn" onclick="prevTestimonial()">&#10094;</button>
+      <button class="next-btn" onclick="nextTestimonial()">&#10095;</button>
+    </div>
+      
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section class="section__container collections__container">
+      <h2 class="section__header">~ COLLECTIONS ~</h2>
+      <div class="collections__flex">
+        <img src="assets/image-1.jpg" alt="collections" />
+        <img src="assets/image-2.jpg" alt="collections" />
+        <img src="assets/image-3.jpg" alt="collections" />
+        <img src="assets/image-4.jpg" alt="collections" />
+        <img src="assets/image-5.jpg" alt="collections" />
+        <img src="assets/image-6.jpg" alt="collections" />
+        <img src="assets/image-7.jpg" alt="collections" />
+        <img src="assets/image-8.jpg" alt="collections" />
+        <img src="assets/image-10.jpg" alt="collections" />
+        <img src="assets/image-11.jpg" alt="collections" />
+      </div>
+    </section>
+
+    <footer id="contact">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <img src="assets/DreamLogo.jpg" alt="logo" />
+          <div class="footer__socials">
+            <a href="#"><i class="ri-facebook-fill"></i></a>
+            <a href="#"><i class="ri-instagram-line"></i></a>
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+            <a href="#"><i class="ri-youtube-fill"></i></a>
+            <a href="#"><i class="ri-pinterest-line"></i></a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <ul class="footer__links">
+            <li class="mystyle"><a href="#home">HOME</a></li>
+            <li class="mystyle"><a href="#about">ABOUT US</a></li>
+            <li class="mystyle"><a href="#contact">CONTACT US</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>STAY IN TOUCH</h4>
+          <p>
+            Keep up-to-date with all things Capturer! Join our community and
+            never miss a moment!
+          </p>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 Dream Photography. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
